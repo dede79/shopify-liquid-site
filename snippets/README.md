@@ -1,0 +1,1 @@
+## Shopify online store theme built from scratch
