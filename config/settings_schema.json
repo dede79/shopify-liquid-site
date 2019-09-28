@@ -25,7 +25,7 @@
       },
       {
         "type": "image",
-        "id": "logo.png",
+        "id": "logo_png",
         "label": "Custom Logo",
         "max-width": 940,
         "max-height": 300
@@ -63,6 +63,22 @@
         "type": "text",
         "id": "email",
         "label": "Email"
+      }
+    ]
+  },
+  {
+    "name": "Top Header",
+    "settings": [
+      {
+        "type":"text",
+        "id": "header_title",
+        "label":"Header title"
+      },
+      {
+        "type":"text",
+        "id":"header_tel",
+        "label":"Phone number",
+        "default":"123-234"
       }
     ]
   }

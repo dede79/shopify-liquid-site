@@ -25,7 +25,7 @@
                       <a href="{{product.url}}"><i class="fa fa-search"></i></a>
                     </li>
                     <li>
-                      <form id="form-{{product.handle}}" method="post" action="/cart/add">
+                      <form id="form-{{product.handle}}" method="post" action="/cart">
                         <input type="hidden" name="id" value="{{product.variants.first.id}}">
                         <a onclick="document.getElementById('form-{{product.handle}}').submit()"><i class="fa fa-shopping-cart"></i></a>
                       </form>
